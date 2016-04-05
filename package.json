@@ -1,0 +1,33 @@
+{
+  "name": "lemonshark",
+  "version": "0.0.1",
+  "description": "simple spreadsheet reader using iterator pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolord/lemonshark.git"
+  },
+  "author": "Angelo Paolo Obispo <angelopaolo.obispo@gmail.com> (http://spoonseven.com)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/paolord/lemonshark/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/paolord/lemonshark/issues"
+  },
+  "homepage": "https://github.com/paolord/lemonshark#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "underscore": "^1.8.3",
+    "xmlreader": "^0.2.3"
+  }
+}
