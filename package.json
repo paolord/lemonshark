@@ -1,6 +1,6 @@
 {
   "name": "lemonshark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple spreadsheet reader using iterator pattern",
   "main": "index.js",
   "scripts": {
