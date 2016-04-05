@@ -11,6 +11,7 @@ IMPORTANT NOTE: not a production npm module.
 
 ## Usage
 
+```
   var reader = require('lemonshark').Reader;
 
   reader.open('./file.xlsx');
@@ -29,12 +30,16 @@ IMPORTANT NOTE: not a production npm module.
 
   iterator.next(); // move to next sheet
 
+
   var second_sheet = reader.sheetIterator();
 
   iterator.prev(); // move to previous sheet
 
   iterator.rewind(); // return to initial sheet
+```
 
 ## Tests
 
+``` bash
   npm test
+```
