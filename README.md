@@ -31,7 +31,7 @@ IMPORTANT NOTE: not a production npm module.
   iterator.next(); // move to next sheet
 
 
-  var second_sheet = reader.sheetIterator();
+  var second_sheet = iterator.currentSheet();
 
   iterator.prev(); // move to previous sheet
 
