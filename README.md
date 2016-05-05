@@ -1,5 +1,6 @@
 lemonshark
 ==========
+[![Build Status](https://semaphoreci.com/api/v1/paolord/lemonshark/branches/master/badge.svg)](https://semaphoreci.com/paolord/lemonshark)
 
 Simple spreadsheet reader module for node.js using iterator pattern.
 
