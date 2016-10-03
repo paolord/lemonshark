@@ -4,9 +4,7 @@
   "description": "simple spreadsheet reader using iterator pattern",
   "main": "index.js",
   "scripts": {
-    "pretest": "node_modules/.bin/codecov --token=565d28af-9ead-4d80-b717-e1e2fe81659b",
-    "test": "node_modules/.bin/istanbul cover node_modules/.bin/mocha --report lcovonly -- -R spec test/test.js",
-    "posttest": "node_modules/.bin/codecov"
+    "test": "node_modules/.bin/istanbul cover node_modules/.bin/mocha --report lcovonly -- -R spec && codecov"
   },
   "repository": {
     "type": "git",
@@ -25,12 +23,12 @@
   "homepage": "https://github.com/paolord/lemonshark#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.5"
   },
   "dependencies": {
     "adm-zip": "^0.4.7",
-    "codecov": "^1.0.1",
-    "istanbul": "^0.4.5",
     "underscore": "^1.8.3",
     "xmlreader": "^0.2.3"
   }
