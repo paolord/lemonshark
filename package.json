@@ -4,7 +4,7 @@
   "description": "simple spreadsheet reader using iterator pattern",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && node_modules/.bin/codecov"
+    "test": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && node_modules/.bin/codecov -t 512eb2af-0b24-4da5-8f2e-701f05f20574"
   },
   "repository": {
     "type": "git",
